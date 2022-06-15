@@ -24,7 +24,7 @@ public class HelloApplication extends Application {
         HBox _create_and_settings = new HBox(10);
         _create_and_settings.getChildren().addAll(_create, _settings);
         main_page.getChildren().add(_create_and_settings);
-        Scene scene = new Scene(main_page, 1200, 800);
+        Scene scene = new Scene(main_page, 1175, 800);
         _create.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
